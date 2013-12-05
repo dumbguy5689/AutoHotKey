@@ -45,9 +45,9 @@ else
 }
 
 ;Ensure that the Procure - GL Outbound Interface is the top item in the Schedule List
-Click 800,120 ;Click on the Procure - Gl Outbound Interface
+Click 800,140 ;Click on the Procure - Gl Outbound Interface
 Click right   ;Right Click on the Procure - Gl Outbound Interface
-Click 810,123 ;Move and Click on the "Modify" option
+Click 810,143 ;Move and Click on the "Modify" option
 Sleep, 1000   ; 1 second
 
 ;**************************************************************************************************
@@ -97,9 +97,9 @@ else
 		Exit ;Exit the Script
 }
 ;Ensure that the Procure - GL Outbound Interface is the top item in the Schedule List
-Click 800,120 		;Click on the Procure - Gl Outbound Interface
+Click 800,140 		;Click on the Procure - Gl Outbound Interface
 Click right   		;Right Click on the Procure - Gl Outbound Interface
-Click 818, 209 		;Move and Click on the "Modify" option
+Click 818, 229 		;Move and Click on the "Modify" option
 Sleep, 1000   		;1 second
 
 
