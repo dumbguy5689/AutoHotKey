@@ -24,8 +24,9 @@ if KeepWinZRunning  ; This means an underlying thread is already running the loo
 Iterator = 0
 ;StartDate = 01-Nov-2013
 ;EndDate = 02-Nov-2013
-InputBox, StartDate, , Start Date:,,,,,,,,01-Nov-2013
-InputBox, EndDate  , , End Date:  ,,,,,,,,02-Nov-2013
+
+InputBox, StartDate, , Start Date:,,,,,,,,01-%A_MMM%-%A_YYYY%
+InputBox, EndDate  , , End Date:  ,,,,,,,,02-%A_MMM%-%A_YYYY%
 
 ;/* ; <--- comment Out ----------------\\\\\\\\\\\\\\\\\\//////////////////////---------------------------
 
